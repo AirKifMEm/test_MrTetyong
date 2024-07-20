@@ -1,0 +1,36 @@
+name: ReligionPlugin
+version: '${project.version}'
+main: org.mrtetyong.religionplugin.ReligionPlugin
+api-version: '1.16'
+
+commands:
+  religion:
+    description: Выбрать религию.
+    usage: /religion <название религии>
+    permission: religionplugin.religion
+  upgradeReligion:
+    description: Прокачать религию.
+    usage: /upgradeReligion
+    permission: religionplugin.upgrade
+  resetReligion:
+    description: Сбросить религию.
+    usage: /resetReligion
+    permission: religionplugin.reset
+  reload:
+    description: Перезапустить плагин.
+    usage: /reload
+    permission: religionplugin.reload
+
+permissions:
+  religionplugin.religion:
+    description: Позволяет выбирать религию.
+    default: true
+  religionplugin.upgrade:
+    description: Позволяет прокачивать религию.
+    default: true
+  religionplugin.reset:
+    description: Позволяет сбрасывать религию.
+    default: true
+  religionplugin.reload:
+    description: Позволяет перезапускать плагин.
+    default: op

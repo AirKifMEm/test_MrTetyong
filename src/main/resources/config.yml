@@ -1,0 +1,29 @@
+eligions:
+  christianity:
+    name: "Христианство"
+    buff: "STRENGTH"
+    buff_level: 1
+    buff_duration: 999999
+    debuff: "SLOW"
+    debuff_level: 2
+    debuff_health_threshold: 10
+  islam:
+    name: "Ислам"
+    buff: "SPEED"
+    buff_level: 1
+    buff_duration: 999999
+    debuff_food: "RAW_PORKCHOP,COOKED_PORKCHOP"
+    debuff_effect: "HUNGER"
+    debuff_effect_level: 1
+    debuff_effect_duration: 15
+    debuff_condition: "RAW_PORKCHOP,COOKED_PORKCHOP"
+    debuff_condition_effect: "WEAKNESS"
+    debuff_condition_effect_level: 1
+    debuff_condition_effect_duration: 15
+  buddhism:
+    name: "Буддизм"
+    buff: "RESISTANCE"
+    buff_level: 1
+    buff_duration: 999999
+    debuff: "SLOW"
+    debuff_level: 1
